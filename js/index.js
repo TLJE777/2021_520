@@ -236,7 +236,7 @@
             document.querySelector('body').setAttribute('style', 'width: 100%;height: 100%;');
             document.querySelector('#page2').setAttribute('style', 'width: 100%;height: 100%;');
             document.querySelector('#page2>iframe').setAttribute('src', './520.html');
-        }, renderTime)
+        }, 0)
     }
 
     window.onload = function() { init() };
